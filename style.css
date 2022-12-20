@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+}
+.breadcrumb{
+    padding:20px;
+    font-family:'Calistoga', cursive;
+    font-weight: 600;
+}
+.from,.to{
+    margin:20px;
+    padding:8px;
+}
+.fromLabel,.toLabel{
+    margin:0 24px;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Calistoga', cursive;
+    font-weight: 600;
+}
+.fromOuter,.toOuter{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin:0;
+    width:100px;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+    background-color:#fa7014;
+    letter-spacing: 1.5px;
+    color: white;
+    font-family:'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.resultSpace {
+    width: 25%;
+    height: 40px;
+    border: 1px solid rgb(139, 237, 79);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(139, 237, 79);
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+}
